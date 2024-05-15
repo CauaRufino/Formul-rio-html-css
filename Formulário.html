@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Inscrição Torneio Regional de jiu-jitsu</h1>
+        <p id="titulo2">Preencha as sua informações abaixo</p>
+    </div>
+    <form action="">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+        <fieldset>
+        <div class="campo">
+            <label for="email">Email do Participante</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="campo">
+            <label for="telefone">Telefone do Participante</label>
+            <input type="tel" name="telefone" id="telefone">
+        </div>
+        <fieldset class="grupo">
+            <div class="check">
+                <label for="faixas">Cor da sua Faixa</label>
+                <select name="Faixa" id="Faixa">
+                    <option selected disabled value="selecione">Selecione</option>
+                    <option> Branca</option><br>
+                    <option value="">Azul</option><br>
+                    <option value="">Roxa</option><br>
+                    <option value="">Marrom</option><br>
+                    <option value="">Preta</option>
+                    <option value="">Coral</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
